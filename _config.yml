@@ -1,1 +1,27 @@
-exclude:  [ Gemfile, Gemfile.lock, Procfile, vendor, gems]
+# standard jekyll configuration
+
+permalink: date
+pygments: true
+exclude: ['Rakefile', 'README.md', 'Gemfile', 'Gemfile.lock', 'Procfile', 'vendor', 'gems']
+markdown: rdiscount
+
+# configuration required for some pages
+
+domain: www.oak.io
+title: Oak Software
+author: Stephen Key
+email: stephenkey123@gmail.com
+
+# configuration for ehancements, uncomment to enable
+
+# feedburner:
+#   id: feedburnerid
+
+# google_analytics:
+#   account: UA-XXXXX-X
+
+# github:
+#   username: ghusername
+
+# disqus:
+#   id: disqusid
