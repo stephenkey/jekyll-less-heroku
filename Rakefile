@@ -64,7 +64,7 @@ end
 
 def less(opts = '')
   Dir::mkdir('stylesheets') unless File.directory?('stylesheets')
-  sh 'lessc -x _less/styles.less > stylesheets/styles.css'
+  sh 'lessc -x _less/app.less > stylesheets/app.css'
 end
 
 desc "deploy basic rack app to heroku"
